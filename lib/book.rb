@@ -1,19 +1,18 @@
 # book.rb
 # Add you Book class here
 class Book
+  attr_accessor :author, :page_count, :genre
+
   def initialize(title)
     @title = title
   end
 
   def title
-      @title
+    @title
   end
 
-  def author = (author)
-    @author = author
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
   end
 
-  def author
-    @author
-  end
 end
